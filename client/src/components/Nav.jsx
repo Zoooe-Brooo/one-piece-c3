@@ -41,10 +41,15 @@ function Nav() {
 
   return (
     <header className="flex-row px-1">
-        <Link to="/">
-          <img src={OnePiece} width="200px" height="auto" alt="One Piece" />
-          <h1>Cosplay Costume Customisation</h1>
-        </Link>
+      <Link to="/">
+        <img src={OnePiece} alt="One Piece" />
+      </Link>
+
+      <h1>
+        <span>Cosplay</span><br />
+        <span>Costume</span><br />
+        <span>Customisation</span>
+      </h1>
 
       <nav>
         {showNavigation()}

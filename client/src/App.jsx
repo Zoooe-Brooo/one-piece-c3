@@ -8,7 +8,7 @@ import { Outlet } from 'react-router-dom';
 // import { setContext } from '@apollo/client/link/context';
 
 import Nav from './components/Nav';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 // import { StoreProvider } from './utils/GlobalState';
 
 // const httpLink = createHttpLink({
@@ -37,8 +37,8 @@ function App() {
         <>
         <Nav />
         <Outlet />
+        <Footer />
         </>
-        // {/* <Footer /> */}
     //   </StoreProvider>
     // </ApolloProvider>
   );
